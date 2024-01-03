@@ -1,7 +1,7 @@
 ## `id: int`
 > [!info] Id пользователя в виде числа #MongoUniceIndex #Autoincrement
 
-## `domain: str`
+## `domain_name: str`
 >[!info]  Доменное имя пользователя #DomainName 
 
 ## `name: str`
@@ -26,4 +26,5 @@
 >[!info] Список имен ролей, которыми обладает пользователь
 
 ## `email: str | None`
+
 > [!info] Электронная почта. Она либо есть либо ее нет. #MongoUniceIndex 
