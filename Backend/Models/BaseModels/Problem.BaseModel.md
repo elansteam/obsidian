@@ -1,10 +1,10 @@
 ## `id: int`
-> [!info] ID группы #UniqueIndex #Autoincrement 
+> [!info] ID задачи #UniqueIndex #Autoincrement. Глобально уникальный ID (отдельная коллекция задач) 
 
 ## `name: str`
-> [!info] Отображаемое имя группы
+> [!info] Отображаемое имя задачи
 
-## `domain: str | None`
+## `domain: str`
 
 > [!info]  Доменное имя группы #UniqueIndex #DomainName
 
