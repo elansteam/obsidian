@@ -1,7 +1,7 @@
 ## `id: int`
 > [!info] Id пользователя в виде числа #MongoUniceIndex #Autoincrement
 
-## `domain_name: str`
+## `domain: str`
 >[!info]  Доменное имя пользователя #DomainName 
 
 ## `name: str`

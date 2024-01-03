@@ -1,6 +1,6 @@
 Минимальные данные для создания пользователя
 
-## `domain_name: str`
+## `domainpo: str`
 >[!info] То же, что и у [[User.BaseModel]]
 
 ## `name: str`

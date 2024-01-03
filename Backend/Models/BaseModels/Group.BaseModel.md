@@ -4,7 +4,7 @@
 ## `name: str`
 > [!info] Отображаемое имя группы
 
-## `domain_name: str`
+## `domain: str`
 > [!info]  Доменное имя группы #DomainName
 
 ## `description: str`

@@ -8,7 +8,7 @@
 Пример входных данных:
 ```json
 {
-	"domain_name": "newUser",
+	"domain": "newUser",
 	"name": "user",
 	"password": "123456",
 	"first_name": "Alex",
@@ -19,10 +19,10 @@
 ```
 
 ## IncorrectDomainNameFormat
-Возникает при случае ввода `domain_name` в неправильном формате #TODO понять что такое формат `domain_name`
+Возникает при случае ввода `domain` в неправильном формате #TODO понять что такое формат `domain`
 
 ## DomainNameAlreadyExists
-Возникает, если сущность с таким же`domain_name` уже существует
+Возникает, если сущность с таким же`domain` уже существует
 
 ## GroupNotFound
 Возникает, если хотя бы одной из групп в `groups` не существует.
@@ -30,7 +30,7 @@
 Пример запроса:
 ```json
 {
-	"domain_name": "newUser",
+	"domain": "newUser",
 	"name": "user",
 	"password": "123456",
 	"first_name": "Alex",
@@ -55,7 +55,7 @@
 Пример запроса:
 ```json
 {
-	"domain_name": "newUser",
+	"domain": "newUser",
 	"name": "user",
 	"password": "123456",
 	"first_name": "Alex",
