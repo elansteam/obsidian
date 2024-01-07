@@ -1,11 +1,8 @@
 ## `id: int`
-> [!info] Id пользователя в виде числа #MongoUniceIndex #Autoincrement
+> [!info] ID пользователя в виде числа #UniqueIndex #Autoincrement
 
-## `domain_name: str`
->[!info]  Доменное имя пользователя #DomainName 
-
-## `name: str`
->[!info] Отображаемый ник пользователя
+## `domain: str | None`
+>[!info]  Доменное имя пользователя (ник) #DomainName #UniqueIndex 
 
 ## `password_hash: str`
 > [!info] Хэш пароля пользователя
@@ -20,10 +17,11 @@
 > [!info] Отчество
 
 ## `groups: list[int]`
->[!info] Список id групп, в которых состоит пользователь
+>[!info] Список ID групп, в которых состоит пользователь
 
 ## `roles: list[str]`
 >[!info] Список имен ролей, которыми обладает пользователь
 
 ## `email: str | None`
-> [!info] Электронная почта. Она либо есть либо ее нет. #MongoUniceIndex 
+
+> [!info] Электронная почта. #UniqueIndex 
