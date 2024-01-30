@@ -22,6 +22,6 @@
 ## `roles: list[str]`
 >[!info] Список имен ролей, которыми обладает пользователь
 
-## `email: str | None`
+## `email: str`
 
 > [!info] Электронная почта. #UniqueIndex 

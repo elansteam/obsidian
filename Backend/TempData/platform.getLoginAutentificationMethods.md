@@ -28,14 +28,11 @@
 Пример ответа:
 ```json
 {
-	"status": "OK",
-	"responce": {
-		"methods": [
-			"password",
-			"email_code",
-			"device_notification"
-		]
-	}
+	"methods": [
+		"password",
+		"email_code",
+		"device_notification"
+	]
 }
 ```
 

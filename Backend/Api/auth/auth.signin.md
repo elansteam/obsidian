@@ -1,17 +1,17 @@
+
 Аутентификация пользователя в системе. Генерирует **JWT**, которые будут для авторизации в методах.
 
 Подробнее [[Авторизация в методах посредством JWT]]
-
 # Права
 Не требуются
 
 # Параметры
-* `login: str` - логин, может быть как `email` либо `domain`
+* `login: str` - логин
 * `password: str` - пароль для входа
-
+* `login_type: Literal["email"] | Literal["domain"] | Literal["id"]` - тип логина
 # Статусы возврата
 
-## OK
+#### OK
 
 Возвращает два токена:
 * `access_token: str` 
@@ -29,14 +29,16 @@
 
 ```json
 {
-	status: "OK",
-	"access_token": "askjdsalkjdsalkjaslkj",
-	"refresh_token": "asdasdsdaasdlkjasdlkj"
+	"status": "OK",
+	"response": {
+		"access_token": "askjdsalkjdsalkjaslkj",
+		"refresh_token": "asdasdsdaasdlkjasdlkj"
+	}
 }
 ```
 
-## WrongPassword
+## INVALID_PASSWORD
 Возникает, когда введен неправильный пароль
 
-## WrongLogin
+## INVALID_LOGIN
 Возникает, когда введенный логин не существует

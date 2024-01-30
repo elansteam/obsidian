@@ -24,3 +24,6 @@
 ## `owner: int`
 > [!info] ID cоздателя группы
 
+## `group_roles: dict[str, int]`
+> [!info] словарь с ролями - название роли - число 
+
