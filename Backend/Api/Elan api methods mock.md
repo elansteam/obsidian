@@ -6,5 +6,6 @@
 # ![[User Api methods|user]]
 
 # ![[Group Api methods|group]]
+# ![[Roles Api methods]]
 
 

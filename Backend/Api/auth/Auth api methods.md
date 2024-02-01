@@ -1,6 +1,8 @@
-# [[auth.signin|signin]]
-Аутентификация пользователя
+# POST
 
-# [[auth.signup|signup]]
+## [[auth.signup|signup]]
 Регистрация пользователя
 
+# GET
+## [[auth.signin|signin]]
+Аутентификация пользователя
