@@ -10,9 +10,9 @@
 ## `description: str`
 > [!info] Описание группы
 
-## `members: dict[int, tuple[int, list[str]]]`
+## `members: list[GroupMember]`
 #TODO #TODO_MARK: возможно, монга офигеет от размера документа в коллекции и хранение списка участников станет точкой отказа БД
-> [!info] Словарь участников типа `user_id : [custom_user_permissions, [group_role_id_one, group_role_id_two, ...]]`, где `group_role_id` - локальный ID групповой роли. Чтобы получить права доступа, задаваемые этой ролью, нужно найти объект этой group role в соответствующей коллекции по ID `group{group_id}_{group_role_local_id}`.
+> [!warning] Словарь участников типа `user_id : [custom_user_permissions, [group_role_id_one, group_role_id_two, ...]]`, где `group_role_id` - локальный ID групповой роли. Чтобы получить права доступа, задаваемые этой ролью, нужно найти объект этой group role в соответствующей коллекции по ID `group{group_id}_{group_role_local_id}`.
 > Пример значения:
 > ```json
 > {
@@ -24,6 +24,5 @@
 ## `owner: int`
 > [!info] ID cоздателя группы
 
-## `group_roles: dict[str, int]`
-> [!info] словарь с ролями - название роли - число 
-
+## `group_roles: list[GroupRole]`
+> [!info] Список групповых ролей
