@@ -26,3 +26,7 @@
 
 ## `group_roles: list[GroupRole]`
 > [!info] Список групповых ролей
+
+## `contests: list[int]`
+> [!info] Список id контестов группы
+
