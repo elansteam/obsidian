@@ -23,5 +23,3 @@
 
 
 ![[Group permissions]]
-
-#TODO Написать user-intrface управление правами человека в группе
