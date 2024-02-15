@@ -15,7 +15,7 @@
   "startOutlineCollapsed": false,
   "logLevel": "warning",
   "incrementalExport": true,
-  "deleteOldExportedFiles": false,
+  "deleteOldExportedFiles": true,
   "addDarkModeToggle": true,
   "includeOutline": true,
   "includeGraphView": true,
@@ -74,6 +74,12 @@
       "Backend/ELAN backend.md",
       "Backend/Group permissions.md",
       "Backend/Авторизация в методах посредством JWT.md",
+      "Runner/Runner engine.md",
+      "Runner/Интерфейс runner engine.md",
+      "Runner/Формат тестирования движка runner.md",
+      "Тестирование/Вердикты Elan.md",
+      "Тестирование/Как работают задачи.md",
+      "Тестирование/Стандартные чекеры Elan.md",
       "index.md"
     ]
   ]

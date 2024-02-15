@@ -1,0 +1,3 @@
+Runner - это низкоуровневый движок, подсистема Elan, отвечающая за безопасный запуск изолированных процессов, строго ограниченных по потреблению ресурсов: памяти, процессорного и реального времени, количеству потоков и файловых дескрипторов. Runner основан на механизме [cgroups v2](https://docs.kernel.org/admin-guide/cgroup-v2.html) ядра Linux. Он накладывает [rlimit](https://www.man7.org/linux/man-pages/man3/setrlimit.3p.html) и [ulimit](https://man7.org/linux/man-pages/man3/ulimit.3.html) и отслеживает все системные вызовы запущенного процесса.
+
+Runner написан с нуля на C++ и имеет интерфейс-библиотеку на Python.

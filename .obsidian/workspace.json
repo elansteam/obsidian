@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Тестирование/Стандартные чекеры Elan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Тестирование/Стандартные чекеры Elan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Тестирование/Стандартные чекеры Elan.md"
+              }
             }
           }
         ]
@@ -148,19 +152,23 @@
     "type": "floating",
     "children": [
       {
-        "id": "9956abecbc0892e0",
+        "id": "9e1a5e39d81577dd",
         "type": "window",
         "children": [
           {
-            "id": "8cfea3fc2e4786a7",
+            "id": "782a90a1c5280eb6",
             "type": "tabs",
             "children": [
               {
-                "id": "40f5775c2ca43e26",
+                "id": "f834d38fce2363a1",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Тестирование/Стандартные чекеры Elan.md",
+                    "mode": "preview",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -176,9 +184,18 @@
       }
     ]
   },
-  "active": "40f5775c2ca43e26",
+  "active": "f834d38fce2363a1",
   "lastOpenFiles": [
+    "Тестирование/Как работают задачи.md",
+    "Тестирование/Вердикты Elan.md",
+    "Runner/Формат тестирования движка runner.md",
+    "Runner/Интерфейс runner engine.md",
+    "Runner/Runner engine.md",
     "index.md",
+    "Тестирование/Стандартные чекеры Elan.md",
+    "Тестирование/Untitled",
+    "Untitled",
+    "Тестирование",
     "Backend/Авторизация в методах посредством JWT.md",
     "Backend/Group permissions.md",
     "Backend/ELAN backend.md",
@@ -198,18 +215,11 @@
     "Backend/Models/BaseModels/GroupToCreate.BaseModel.md",
     "Backend/Models/BaseModels/Group.BaseModel.md",
     "Backend/Models/BaseModels/Contest.BaseModel.md",
-    "Backend/Api/Схема ответа API метода.md",
-    "Backend/Api/Elan api methods mock.md",
-    "Backend/Api/user/user.delete_role.md",
-    "Backend/Api/user/user.create.md",
-    "Backend/Api/user/user.add_role.md",
-    "Backend/Api/user/User Api methods.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Backend/Api/tasks",
     "Untitled 1",
-    "Untitled",
     "Backend/Api/roles/Untitled",
     "Backend/Api/group"
   ]
