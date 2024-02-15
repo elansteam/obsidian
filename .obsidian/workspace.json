@@ -4,159 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "88f153bc2d00e46b",
+        "id": "0671f0844371e79d",
         "type": "tabs",
         "children": [
           {
-            "id": "bafda603467192fa",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "5994cf568124a3bc",
+            "id": "9632afb5b8703950",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Api/tasks/tasks.get_legend.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46d9f77cdcc3b56b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/Tasks Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "400bda1fe4cc9bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/tasks.get_output.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a00ef903f7b3b38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/Tasks Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "431c4be463989387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/tasks.get_scoring.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0157a4661bbcd50",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "9d89f79c47a9097d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/group/Group Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3014a251bd9f367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Models/Task.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "099278dd72314ecb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/group/Group Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "489d3d88c08196e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/group/Group Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b5db556d7539183",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/Tasks Api methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "541434592dbc1836",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Api/tasks/Tasks Api methods.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,39 +139,74 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "d0157a4661bbcd50",
+  "floating": {
+    "id": "d339e3a675ca927e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9956abecbc0892e0",
+        "type": "window",
+        "children": [
+          {
+            "id": "8cfea3fc2e4786a7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "40f5775c2ca43e26",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 233,
+        "y": 243,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "40f5775c2ca43e26",
   "lastOpenFiles": [
+    "index.md",
+    "Backend/Авторизация в методах посредством JWT.md",
+    "Backend/Group permissions.md",
+    "Backend/ELAN backend.md",
+    "Backend/TempData/platform.getLoginAutentificationMethods.md",
+    "Backend/TempData/Global permissions.md",
+    "Backend/TempData/API method doc template.md",
+    "Backend/Models/User.md",
+    "Backend/Models/Role.md",
+    "Backend/Models/Problem.md",
+    "Backend/Models/Group.md",
+    "Backend/Models/Elan models mock.md",
+    "Backend/Models/Contest.md",
+    "Backend/Models/BaseModels/UserToCreate.BaseModel.md",
+    "Backend/Models/BaseModels/User.BaseModel.md",
+    "Backend/Models/BaseModels/Role.BaseModel.md",
+    "Backend/Models/BaseModels/Problem.BaseModel.md",
+    "Backend/Models/BaseModels/GroupToCreate.BaseModel.md",
+    "Backend/Models/BaseModels/Group.BaseModel.md",
+    "Backend/Models/BaseModels/Contest.BaseModel.md",
+    "Backend/Api/Схема ответа API метода.md",
+    "Backend/Api/Elan api methods mock.md",
+    "Backend/Api/user/user.delete_role.md",
+    "Backend/Api/user/user.create.md",
+    "Backend/Api/user/user.add_role.md",
+    "Backend/Api/user/User Api methods.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
-    "Backend/Api/tasks/Tasks Api methods.md",
-    "Backend/Api/tasks/tasks.get_legend.md",
-    "Untitled.md",
-    "Backend/TempData/platform.getLoginAutentificationMethods.md",
-    "Backend/TempData/API method doc template.md",
-    "Backend/Api/roles/Roles Api methods.md",
-    "Backend/Api/tasks/tasks.get_input.md",
-    "Backend/Api/tasks/tasks.get_name.md",
-    "Backend/Api/tasks/tasks.get_notes.md",
-    "Backend/Api/tasks/tasks.get_output.md",
-    "Backend/Api/tasks/task.create.md",
-    "Backend/Api/tasks/tasks.get_scoring.md",
-    "Backend/Api/group/Group Api methods.md",
-    "Backend/Api/group/group.get.md",
-    "Backend/Api/group/group.get_contests.md",
-    "tasks.create.md",
-    "Backend/Api/tasks/tasks.create.md",
-    "Backend/Models/BaseModels/Task.BaseModel.md",
-    "Backend/Api/user/user.create.md",
-    "Backend/Models/Task.md",
-    "Backend/Models/BaseModels/UserToCreate.BaseModel.md",
-    "Backend/Api/group/group.create.md",
-    "Backend/Api/Схема ответа API метода.md",
-    "Group Api methods.md",
-    "Backend/Models/Role.md",
     "Backend/Api/tasks",
     "Untitled 1",
     "Untitled",
